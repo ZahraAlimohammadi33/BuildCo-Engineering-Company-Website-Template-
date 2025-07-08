@@ -1,0 +1,246 @@
+#single-content{
+    padding: 80px 0;;
+  }
+  
+  
+  .single-header{
+    width: 100%;
+    background: linear-gradient(rgb(0,0,0,.7), rgb(0,0,0,.7)), url("../images/footer.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .single-header svg{
+    color:#faa000;
+    font-size: 250px;
+  }
+  
+  .single-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #main-content{
+    width: 59%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgb(185,185,185,.5);
+  }
+  
+  #sidebar{
+    width: 29%;
+    box-shadow: 1px 1px 10px rgb(185,185,185,.5);
+  }
+  
+  .main-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+  }
+  
+  .main-title h3{
+    color: #faa000;
+  }
+  
+  .main-date{
+    display: flex;
+  }
+  
+  
+  .main-date h5{
+    margin: 0 10px;
+  }
+  
+  
+  .main-date h5 svg{
+   color: #faa000;
+   margin: 0 10px;
+  }
+  
+  .main-describtion {
+    width: 100%;
+  }
+  
+  
+  .main-describtion img{
+    width:100%;
+    margin-top: 50px;
+  }
+  
+  .main-describtion p{
+    margin-top: 30px;
+    line-height: 25px;
+  }
+  
+  .main-describtion ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  
+  .main-describtion ul li{
+    margin-left: 10px;
+  }
+  
+  .main-describtion ul li:hover a{
+    color:#faa000 ;
+  }
+  
+  .main-describtion ul li a{
+    color: #000;
+  }
+  
+  
+  .main-describtion ul h4{
+    margin-left: 10px;
+  }
+  
+  .comment{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+   .comment-item{
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .reply-item{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+    border: 1px solid #faa000;
+    margin-top: 30px;
+  }
+  
+  .reply-item img, .comment-item img{
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .reply-item-desc, .comment-item-desc{
+    width: 80%;
+  }
+  
+  
+  .main-describtion form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    outline: none;
+    border-radius: 8px;
+  }
+  
+  .main-describtion form textarea{
+    font-family: 'vazir';
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    resize: none;
+    border: 1px solid #c4c4c4;
+    outline: none;
+    border-radius: 8px;
+  }
+  
+  .main-describtion form input{
+    width: 31.33%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    font-family: 'vazir';
+    border: 1px solid #c4c4c4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .main-describtion form input[type=submit]{
+    background: #faa000;
+    margin:30px auto;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  
+  .sidebar-item {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar-item h3{
+    padding-bottom: 10px;
+    position: relative;
+  }
+  
+  .sidebar-item h3::before{
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    background: #faa000;
+    border: 0;
+    bottom: -10px;
+  }
+  
+  .sidebar-item ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .sidebar-item ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: #e4860c;
+    border-bottom: 1px solid #faa000;
+    padding-bottom: 10px;
+  }
+  
+  .sidebar-item ul li a{
+    color: #000;
+  }
+  
+  .sidebar-item ul li div{
+    color: #faa000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sidebar-item ul li div p{
+    padding-right: 10px;
+  }

@@ -1,0 +1,420 @@
+
+@media screen and (max-width: 1200px) {
+
+    .container{
+        width: 100%;
+        padding:0 10px;
+        justify-content: center ;
+        align-items: center;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+
+    .about-title{
+        padding-left:20px;
+    }
+
+    .article{
+        height: 60vh;
+    }
+
+    .article-post{margin: 0;}
+
+    .box-item{
+        width: auto;
+        height: auto;
+    }
+
+    .box-item-img{
+        height: 220px;
+    }
+
+    .project .container{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer-content div{
+        width: 30%
+      }
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+    /* .container{
+        width: 80%;
+        margin: auto;
+    } 
+        */
+
+
+    .info-item{
+        font-size: 14px;
+        width: 30%;
+    }
+
+    .info-item svg{
+        font-size: 12px;
+    }
+
+    .slider{
+        height:500px !important;
+    }
+
+    .slider-desc{
+        height: 500px !important;
+    }
+
+    .slider-desc .typed span{
+        font-size:35px ;
+    }
+
+    header ul{
+        width: 40%;
+    }
+
+    .base-store .container .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .base-video{
+        width: 70%;
+    } 
+
+    .base-store-desc{
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    .about{
+        padding: 20px 0;
+    }
+
+    .about-team-item{
+        height: 300px;
+    }
+
+    .section-title button{
+        margin-top: 10px;
+    }
+
+    .text h1{
+        font-size: 15px;
+    }
+
+    .date h2{
+        font-size: 13px;
+    }
+
+    .portfolio-content ul li , .hot-content ul li{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-content{
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .info{
+        display: none ;
+    }
+
+
+     nav{
+        align-items: center;
+    }
+
+    
+    nav ul{
+        position: absolute;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+        width: 80%;
+        height: 100% vh;
+        background: #000;
+        top: 0;
+        bottom: 0;
+        left:0;
+        z-index: 1000;
+        visibility: hidden;
+        transition: all .24s ease-in-out;
+        -webkit-transition: all .24s ease-in-out;
+        -moz-transition: all .24s ease-in-out;
+        -ms-transition: all .24s ease-in-out;
+        -o-transition: all .24s ease-in-out;
+}
+
+     nav ul li{
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .responsive-menu{
+       visibility: visible;
+    }
+
+    .toggle-menu{
+        display: flex ;
+    }
+
+    .slider-desc{
+        font-size:30px ;
+    }
+    .base-store-items{
+        flex-wrap: wrap;
+    }
+
+    .base-store-items div{
+        width: 49% ;
+        margin-top: 15px;
+    }
+
+    .base-store-desc p{
+        line-height: 25px;
+      }
+
+    .store-title{
+        line-height: px;
+    }
+
+    .base-video::before{
+        height: 10px
+    }
+
+    
+    .base-video::after{
+        width: 10 px;
+        right: 0;
+    }
+
+    .about-team{
+        display: none ;
+    }
+
+    .about-title{
+        width: 70% ;
+    }
+
+    .about .container .row{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text{
+        font-size: 18px ;
+    }
+
+    .article{
+        height: 110vh ;
+    }
+
+    .posts{
+        flex-direction: column ;
+        align-self: center;
+        justify-content: center;
+    }
+        
+    .post{
+        width: 50% ;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .partner ul{
+        flex-wrap: wrap ;
+    }
+
+    .partner ul li{
+        width: 49%  ;
+        margin-top: 10px;
+    }
+
+    .footer-about{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-about-title{
+        width: 70%;
+        text-align: center;
+    }
+
+    .footer-about-content{
+        width: 70% ;
+        margin-top: 20px;
+    }
+
+    .footer-content{
+        flex-wrap: wrap ;
+        justify-content: center;
+        
+    }
+
+    .hot-content {
+        width: 80% ;
+        margin: auto;
+    }
+
+    .hot-content {
+        width: 70% ;
+        margin: auto;
+    }
+
+    .quick-access{
+        width: 70% ;
+        margin: auto;
+    }
+
+    .portfolio-content{
+        width: 70% ;
+        margin: auto;
+    }
+
+    .portfolio-content h3, .hot-content h3, .quick-access h3{
+        color: #fff;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .slider-desc{
+        font-size: 25px ;
+    }
+
+    .typed span{
+        font-size: 20px;
+    }
+
+    .base-video{
+        width: 100% ;
+    }
+
+    .base-store-desc{
+        width: 100% ;
+    }
+
+    .base-store-item{
+        width: 100% ;
+    }
+
+    .services{
+        height: 90vh;
+    }
+
+
+    .tab-button ul{
+        flex-direction: column;
+        height: 250px ;
+    }
+
+    .tab-button ul li{
+        width: 100% ;
+        border-left: none ;
+        border-bottom: 1px solid #fff;
+    }
+
+    .section-title{
+        width: 100% ;
+    }
+
+    .text h1{
+        font-size: 17px ;
+    }
+
+    .text a{
+        width: 20% ;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .post{
+        width: 80%;
+    }
+
+
+    .article{
+        height: 1500px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .header-top-message{
+        width: 70%;
+    }
+
+    .header-top-message p{
+        font-size: 10px;
+    }
+
+    .header-top-social ul li{
+        margin: 0 10px;
+    }
+
+    .slider{
+        flex-direction: column;
+    }
+
+    .slider-desc h1{
+    
+        font-size: 17px;
+    }
+
+    .typed span{
+        font-size: 15px !important;
+    }
+
+
+    .about{
+        width: 100%;
+    }
+
+    .about-title {
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .about-title button{
+        width: 50%;
+      }
+
+    .content-img{
+        display: none;
+    }
+
+    .content-title{
+        width: 100%;
+    }
+
+    .beautiText{
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .partner ul li{
+        width: 100%;
+    }
+
+    .footer-content div , .footer-about-content, .footer-about-title{
+        width: 100%;
+    }
+
+}
+
