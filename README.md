@@ -4,6 +4,9 @@ markdown
 
 A modern, RTL-compatible website template designed for **engineering companies**, construction firms, and technical service providers. Built with HTML5, CSS3, and jQuery plugins, this static template delivers a professional layout with dynamic UI elements tailored for Farsi-speaking audiences.
 
+🔗 **Live Demo:**  
+https://build-co-engineering-company-websit.vercel.app
+
 ---
 
 ## 🚀 Features
@@ -30,17 +33,6 @@ A modern, RTL-compatible website template designed for **engineering companies**
 
 1. Download or clone the repository
 2. Open `index.html` in a browser.
-
----
-
-## 📦 Deployment
-
-You can host this template on:
-
-* GitHub Pages
-* Netlify
-* Vercel
-* Firebase Hosting
 
 ---
 
