@@ -11,12 +11,12 @@ https://build-co-engineering-company-websit.vercel.app
 
 ## 🚀 Features
 
-- 🏗️ **Modern engineering theme** – with bold imagery and clean layouts
-- 🌐 **Responsive design** – works across mobile, tablet, and desktop
-- 🔤 **RTL support** – Persian typography using Vazir font
-- 🖼️ **Service sections, portfolios, and company highlights**
-- ⚙️ **jQuery-powered components** – sliders, animations, UI interactions
-- ⚡ Fully static – no backend required
+-  **Modern engineering theme** – with bold imagery and clean layouts
+-  **Responsive design** – works across mobile, tablet, and desktop
+-  **RTL support** – Persian typography using Vazir font
+-  **Service sections, portfolios, and company highlights**
+-  **jQuery-powered components** – sliders, animations, UI interactions
+-  Fully static – no backend required
 
 ---
 
